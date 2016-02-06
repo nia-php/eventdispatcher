@@ -1,0 +1,22 @@
+{
+    "name": "nia/eventdispatcher",
+    "type": "library",
+    "description": "nia component for event handling.",
+    "keywords": ["nia", "event", "dispatcher"],
+    "homepage": "http://www.nat-software.de",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Ullmann",
+            "email": "patrick.ullmann@nat-software.de",
+            "role": "lead"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": { "Nia\\EventDispatcher\\": "sources/",  "Test\\Nia\\EventDispatcher\\": "tests/" }
+    },
+    "minimum-stability": "dev"
+}
